@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+  <script src="js/main.min.js"></script>
+  
+  <title>Авторизация | Gimnaziya №1</title>
+</head>
+<body class="success-registration wrapper-flex">
+<div id="wrapper"> <!-- wrapper start-->
+
+    <header class="header simple-header">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="logo mr-4">
+      <img src="img/logo.svg" alt="Гиназия №1">
+    </div>
+    
+    <a class="link-to-icon" href="#">
+      <span class="icon-circle-arrow link-to-icon__icon">
+        <i class="icon-arrow_left"></i>
+      </span>
+      <span class="link-to-icon__text simple-header__back-text">Вернуться назад</span>
+    </a>
+  </div>
+</header>
+
+
+<main class="content">
+  <section class="success-reg-cont">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+  
+          <header class="reg-header text-center mb-5">
+            <div class="reg-header-icon mb-2">
+              <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="27.5" cy="27.5" r="26.5" stroke="#00AF01" stroke-width="2"/>
+                <path d="M41.5692 19.6253L24.339 36.8561L14.1425 26.6597" stroke="#00AF01" stroke-width="2"/>
+              </svg>
+            </div>
+            <h1 class="reg-header__title text-success">Регистрация прошла успешно</h1>
+            <p class="reg-header__text">Добавьте фотографии родителя и ребенка</p>
+          </header>
+          
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col">
+  
+          <ul class="success-user-list list-unstyled d-flex justify-content-around flex-wrap">
+            
+            <li class="mx-md-2 mb-5">
+              <div class="success-user">
+                <div class="success-user__load-photo">
+                  <label>
+                    <input type="file" name="image"/>
+                    <img class="success-user__img" src="img/avatar-pl-mother.svg" alt="photo-load"/>
+                    <span class="success-user__icon"><i class="icon-plus"></i></span>
+                  </label>
+                </div>
+                <span class="success-user__title">Иванова Юлия Петровна</span>
+                <div class="success-user__status colorful-rect shape-purple colorful-rect--oval">Родитель</div>
+              </div>
+            </li>
+            
+            <li class="mx-md-2 mb-5">
+              <div class="success-user">
+                <div class="success-user__load-photo">
+                  <label>
+                    <input type="file" name="image"/>
+                    <img class="success-user__img" src="img/avatar-pl-boy.svg" alt="photo-load"/>
+                    <span class="success-user__icon"><i class="icon-plus"></i></span>
+                  </label>
+                </div>
+                <span class="success-user__title">Иванова Юлия Петровна</span>
+                <div class="success-user__status colorful-rect shape-blue colorful-rect--oval">Ребёнок</div>
+              </div>
+            </li>
+            
+            <li class="mx-md-2 mb-5">
+              <div class="success-user">
+                <div class="success-user__load-photo">
+                  <label>
+                    <input type="file" name="image"/>
+                    <img class="success-user__img" src="img/avatar-pl-girl.svg" alt="photo-load"/>
+                    <span class="success-user__icon"><i class="icon-plus"></i></span>
+                  </label>
+                </div>
+                <span class="success-user__title">Иванова Юлия Петровна</span>
+                <div class="success-user__status colorful-rect shape-blue colorful-rect--oval">Ребёнок</div>
+              </div>
+            </li>
+          </ul>
+  
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg ">Готово</button>
+          </div>
+
+          <div class="row justify-content-center mt-5">
+            <a class="add-link" href="#">Добавить ещё одного ребёнка
+              <span class="add-link__icon"><i class="icon-plus"></i></span>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <a class="footer__link" href="mailto:info@online-gymnasium.ru">info@online-gymnasium.ru</a>
+      <small class="footer__copyright">&copy; 2021. Все права защищены | политика конфиденциальности</small>
+      <a class="footer__link" href="tel:88001007854"><strong>8 (800) 100-78-54</strong></a>
+    </div>
+  </footer>
+
+  </div> <!-- wrapper end-->
+</body>
+</html>

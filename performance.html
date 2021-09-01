@@ -1,0 +1,365 @@
+
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+  <script src="js/main.min.js"></script>
+  
+  <title>Успеваемость | Gimnaziya №1</title>
+</head>
+<body class="cabinet performance">
+<div id="wrapper"> <!-- wrapper start-->
+
+
+
+<div class="container-fluid px-0">
+  <div class="row m-0">
+    
+    <header id="cabinetHeader" class="col header cabinet-header">
+  
+  <div>
+    <div class="logo cabinet-header__logo">
+      <a href="#">
+        <div class="logo-group">
+          <img class="logo-group__icon" src="img/logo_icon.svg" alt="gimnaziya1">
+          <img class="logo-group__name" src="img/logo_name.svg" alt="gimnaziya1">
+        </div>
+      </a>
+      <a href="#" class="opener"><span></span></a>
+    </div>
+  
+    <nav class="menu">
+      <div class="drop">
+        <div class="drop-list">
+          <div class="nav nav-tabs cabinet-header__nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-menu-tab" data-toggle="tab" href="#nav-menu" role="tab" aria-controls="nav-menu" aria-selected="true">Навигация</a>
+            <a class="nav-item nav-link" id="nav-pupil-tab" data-toggle="tab" href="#nav-pupil" role="tab" aria-controls="nav-pupil" aria-selected="false">Ученик</a>
+          </div>
+          <div class="tab-content cabinet-header__tab-content" id="nav-tabContent">
+          
+            <div class="tab-pane fade show active cabinet-header__tab-menu custom-scroll" id="nav-menu" role="tabpanel" aria-labelledby="nav-menu-tab">
+              <div class="cabinet-header__user">
+                <div class="media user-card user-card--selected cabinet-header__user-selected">
+                  <img class="user-card__photo align-self-center" src="img/avatar-pl-boy.svg" alt="avatar">
+                  <div class="media-body cabinet-header__media-body">
+                    <h5 class="user-card__title mt-0">Михайлов Максим Евгеньевич</h5>
+                    <div class="user-card__add-info">
+                      <span class="user-card__grade"><strong class="text-primary">6</strong> класс</span> |
+                      <span class="user-card__rating"><i class="icon-star"></i> 4,56</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <a class="icon-circle-arrow cabinet-header__open-user-list" data-toggle="collapse" href="#collapseUserList" role="button" aria-expanded="false" aria-controls="collapseUserList"><i class="icon-arrow_down"></i></a>
+              
+                <div class="collapse" id="collapseUserList">
+                  <ul class="cabinet-header__user-list list-unstyled">
+                    <li class="cabinet-header__user-list-item">
+                      <a href="#" class="text-decoration-none">
+                        <div class="media user-card align-items-center">
+                          <img class="user-card__photo align-self-center" src="img/avatar-pl-boy.svg" alt="avatar">
+                          <div class="media-body cabinet-header__media-body">
+                            <h5 class="user-card__title mt-0">Михайлов Максим Евгеньевич</h5>
+                          </div>
+                          <small class="user-card__select">Выбрать</small>
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li class="cabinet-header__user-list-item">
+                      <a href="#" class="text-decoration-none">
+                        <div class="media user-card align-items-center">
+                          <img class="user-card__photo align-self-center" src="img/avatar-pl-boy.svg" alt="avatar">
+                          <div class="media-body cabinet-header__media-body">
+                            <h5 class="user-card__title mt-0">Михайлов Максим Евгеньевич</h5>
+                          </div>
+                          <small class="user-card__select">Выбрать</small>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <ul class="menu-list cabinet-header__menu-list">
+                <li class="menu-list__item menu-list__item--active">
+                  <a class="menu-list__link" href="home.html"><i class="menu-list__icon icon-home"></i>
+                    <span class="cabinet-header__menu-text">Главная</span>
+                  </a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="performance.html"><i class="menu-list__icon icon-five_plus"></i>
+                    <span class="cabinet-header__menu-text">Успеваемость</span>
+                  </a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="schedule.html"><i class="menu-list__icon icon-events"></i>
+                    <span class="cabinet-header__menu-text">Расписание</span>
+                  </a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="payment.html"><i class="menu-list__icon icon-pay"></i>
+                    <span class="cabinet-header__menu-text">Оплата</span>
+                  </a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="documents.html"><i class="menu-list__icon icon-doc"></i>
+                    <span class="cabinet-header__menu-text">Документы</span>
+                  </a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="#"><i class="menu-list__icon icon-settings"></i>
+                    <span class="cabinet-header__menu-text">Настройки</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          
+            <div class="tab-pane fade cabinet-header__tab-pupil-fixed custom-scroll" id="nav-pupil" role="tabpanel" aria-labelledby="nav-pupil-tab">
+              <div class="cabinet-header__tab-pupil-wrapper">
+                
+                 <!-- photo -->
+                <div class="cabinet-header__pupil mb-4">
+                  <img class="cabinet-header__pupil-photo" src="img/avatar-pl-boy.svg" alt="Ученик">
+                  <div class="h5 mb-3">Михайлов Александр Евгеньевич</div>
+                  <ul class="cabinet-header__pupil-options-list">
+                    <li class="cabinet-header__pupil-options-list-item">
+                      <div class="colorful-rect shape-purple colorful-rect">Ученик</div>
+                    </li>
+                    <li class="cabinet-header__pupil-options-list-item">
+                      <div class="colorful-rect shape-orange colorful-rect">Средний бал 4,56</div>
+                    </li>
+                  </ul>
+
+                </div>
+
+                <!-- общая информация -->
+                <div class="mb-5">
+                  <h5 class="mb-3">Общая информация</h5>
+                  <ul class="info-list list-unstyled">
+                    <li class="info-list__item">
+                      <span class="info-list__name">Возраст:</span>
+                      <span class="info-list__value"><strong class="text-primary">12 лет</strong> | 17.09.2008</span>
+                    </li>
+                    <li class="info-list__item">
+                      <span class="info-list__name">Класс:</span>
+                      <span class="info-list__value text-primary">6 класс</span>
+                    </li>
+                    <li class="info-list__item">
+                      <span class="info-list__name">Email</span>
+                      <span class="info-list__value">nomail1@online-gymnasium.ru</span>
+                    </li>
+                    <li class="info-list__item">
+                      <span class="info-list__name">Город</span>
+                      <span class="info-list__value">Москва, Московская область</span>
+                    </li>
+                    <li class="info-list__item">
+                      <span class="info-list__name">Телефон</span>
+                      <span class="info-list__value">+7 (933) 933 33-66</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- вложения -->
+                <div>
+                  <h5 class="mb-3">Последние вложения</h5>
+
+                  <div class="cabinet-header__doc-wrapper custom-scroll" data-scroll-theme="hidden-theme" data-scroll-amount="40">
+                    <ul class="cabinet-header__attachment-list">
+                      <li>
+                        <a class="attachment-link" href="#">
+                          <i class="doc-icon doc-icon--pdf"></i>
+                          <span class="doc__text">Правила языка.pdf</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="attachment-link" href="#">
+                          <i class="doc-icon doc-icon--docx"></i>
+                          <span>Особенности английского.docx</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="attachment-link" href="#">
+                          <i class="doc-icon doc-icon--txt"></i>
+                          <span>Структура текста.txt</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          
+            <div class="cabinet-header__footer">
+              <a class="cabinet-header__footer-link" href="#">
+                <i class="icon-fire"></i>
+                <span class="cabinet-header__footer-text">Специальное предложение</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+
+
+
+    <div class="col px-0 position-relative">
+      <a id="toggleMenuLink" class="icon-circle-arrow toggle-menu-link" href="#"><i class="icon-arrow_left"></i></a>
+      <div class="cabinet-content custom-scroll">
+        <div class="cabinet-content__wrapper">
+            
+            <!-- content header -->
+            <div class="row">
+              <div class="col content-header">
+
+                <div class="header-date">
+                  <span class="header-date__title">Сегодня </span>
+                  <span class="header-date__date">4 мая 2020</span>
+                  <span class="header-date__time">14:00</span>
+                </div>
+
+                <div class="event">
+                  <div class="event__title">Ближайшее событие:</div>
+                  <span class="event__body">
+                        Урок <strong>Английского языка</strong>
+                        <small class="event__time">12:30</small>
+                      </span>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- content-->
+            <div class="row">
+
+              <!-- central content-->
+              <div class="col-12 col-xxl mb-5">
+                
+                <!-- title content -->
+                <div class="row mb-3">
+                  <div class="col-12 cabinet-content__header">
+                    <h4 class="cabinet-content__title">Успеваемость</h4>
+                    <div class="performance__indicators">
+                      <span class="text-danger mr-2"><i class="icon-arrow_big_down"></i> Уменьшение бала</span>
+                      <span class="text-success"><i class="icon-arrow_big_up"></i> Повышение бала</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- subject table -->
+                <div class="performance__table">
+                  <div class="performance__table-wrapper">
+                    <div class="row">
+
+                      <div class="col-lg-4 performance__table-cell">
+                        <a class="subject m-auto" href="rating.html">
+                          Математика
+                          <span class="subject__icon text-success"><i class="icon-arrow_big_up"></i></span>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 performance__table-cell">
+                        <a class="subject m-auto" href="rating.html">
+                          Английский язык
+                          <span class="subject__icon text-success"><i class="icon-arrow_big_up"></i></span>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 performance__table-cell">
+                        <a class="subject m-auto" href="rating.html">
+                          Обществознание
+                          <span class="subject__icon text-danger"><i class="icon-arrow_big_down"></i></span>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 performance__table-cell">
+                        <a class="subject m-auto" href="rating.html">
+                          Геометрия
+                          <span class="subject__icon text-danger"><i class="icon-arrow_big_down"></i></span>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 performance__table-cell">
+                        <a class="subject m-auto" href="rating.html">
+                          Информатика
+                          <span class="subject__icon text-danger"><i class="icon-arrow_big_down"></i></span>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 performance__table-cell">
+                        <a class="subject m-auto" href="rating.html">
+                          Биология
+                          <span class="subject__icon text-danger"><i class="icon-arrow_big_down"></i></span>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 performance__table-cell">
+                        <a class="subject m-auto" href="rating.html">
+                          География
+                          <span class="subject__icon text-success"><i class="icon-arrow_big_up"></i></span>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 performance__table-cell">
+                        <a class="subject m-auto" href="rating.html">
+                          Русский язык
+                          <span class="subject__icon text-success"><i class="icon-arrow_big_up"></i></span>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 performance__table-cell">
+                        <a class="subject m-auto" href="rating.html">
+                          Физика
+                          <span class="subject__icon text-success"><i class="icon-arrow_big_up"></i></span>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 performance__table-cell">
+                        <a class="subject m-auto" href="rating.html">
+                          Алгебра
+                          <span class="subject__icon text-danger"><i class="icon-arrow_big_down"></i></span>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 performance__table-cell">
+                        <a class="subject m-auto" href="rating.html">
+                          Литература
+                          <span class="subject__icon text-success"><i class="icon-arrow_big_up"></i></span>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 performance__table-cell">
+                        <a class="subject m-auto" href="rating.html">
+                          Химия
+                          <span class="subject__icon text-success"><i class="icon-arrow_big_up"></i></span>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 performance__table-cell">
+                        <a class="subject m-auto" href="rating.html">
+                          История
+                          <span class="subject__icon text-danger"><i class="icon-arrow_big_down"></i></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+
+              <!-- right sidebar -->
+              <aside class="col-12 col-xl right-sidebar"></aside>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </div> <!-- wrapper end-->
+</body>
+</html>
+
+
+
+
+
+
+

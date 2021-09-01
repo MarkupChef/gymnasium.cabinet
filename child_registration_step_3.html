@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+  <script src="js/main.min.js"></script>
+  
+  <title>Регистрация | Gimnaziya №1</title>
+</head>
+<body class="registration wrapper-flex">
+<div id="wrapper"> <!-- wrapper start-->
+
+    <header class="header simple-header">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="logo mr-4">
+      <img src="img/logo.svg" alt="Гиназия №1">
+    </div>
+    
+    <a class="link-to-icon" href="#">
+      <span class="icon-circle-arrow link-to-icon__icon">
+        <i class="icon-arrow_left"></i>
+      </span>
+      <span class="link-to-icon__text simple-header__back-text">Вернуться назад</span>
+    </a>
+  </div>
+</header>
+
+
+<main class="content">
+  
+  <section class="reg-form">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="reg-form__inner">
+            <header class="reg-header text-center mb-5">
+              <h1 class="reg-header__title">Регистрация ребёнка</h1>
+              <small class="reg-header__small-text">Шаг 3 из 3</small>
+              <p class="reg-header__text">Заполните данные для связи</p>
+            </header>
+      
+            <form class="reg-form__form form-contact" action="/">
+
+              <div class="jcf-select-wrapper custom-enter" data-select-custom-enter="true">
+                <div class="form-group custom-enter__select form-group--not-empty">
+                  <select name="childEmail" id="childEmail">
+                    <option value="">Ввести вручную</option>
+                    <option value="exemple1@email.com">exemple1@email.com</option>
+                    <option value="exemple2@email.com">exemple2@email.com</option>
+                    <option value="exemple3@email.com">exemple3@email.com</option>
+                  </select>
+                  <label for="childEmail">Email</label>
+                </div>
+
+                <div class="form-group custom-enter__input form-group--not-empty">
+                  <input type="email" class="form-control" id="inputCustomEnterChildEmail" placeholder="exemple3@email.com">
+                  <label for="inputCustomEnterChildEmail">Email</label>
+                  <i class="icon-circle-close form-group__icon custom-enter__icon-off"></i>
+                </div>
+              </div>
+
+              <div class="form-group form-contact__group">
+
+                <div class="jcf-select-wrapper custom-enter reg-form__region" data-select-custom-enter="true">
+                  <div class="form-group custom-enter__select form-group--not-empty">
+                    <select name="childRegionNumber is-invalid" id="childRegionNumber">
+                      <option value="">Ввести вручную</option>
+                      <option selected value="+7">+7</option>
+                      <option value="+3">+3</option>
+                      <option value="+2">+2</option>
+                      <option value="+2">+2</option>
+                      <option value="+2">+2</option>
+                      <option value="+2">+2</option>
+                      <option value="+2">+2</option>
+                    </select>
+                    <label for="childRegionNumber">Регион</label>
+                  </div>
+
+                  <div class="form-group custom-enter__input form-group--not-empty">
+                    <input type="text" class="form-control" id="inputCustomEnterChildRegion" placeholder="+7">
+                    <label for="inputCustomEnterChildRegion">Регион</label>
+                    <i class="icon-circle-close form-group__icon custom-enter__icon-off"></i>
+                  </div>
+                  <small>We'll never share your email with anyone else.</small>
+                </div>
+                
+                <div class="form-group reg-form__phone">
+                  <input type="text" class="form-control" id="parentPhone" aria-describedby="parentPhone"
+                         placeholder="Телефон">
+                  <label for="parentPhone">Телефон</label>
+                  <small>We'll never share your email with anyone else.</small>
+                </div>
+              </div>
+              
+              <div class="reg-form__btn">
+                <button type="submit" class="btn btn-primary btn-lg ">Продолжить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</main>
+
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <a class="footer__link" href="mailto:info@online-gymnasium.ru">info@online-gymnasium.ru</a>
+      <small class="footer__copyright">&copy; 2021. Все права защищены | политика конфиденциальности</small>
+      <a class="footer__link" href="tel:88001007854"><strong>8 (800) 100-78-54</strong></a>
+    </div>
+  </footer>
+
+  </div> <!-- wrapper end-->
+</body>
+</html>
